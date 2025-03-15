@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/avatar.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/avatar.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/avatar.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/avatar.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Dhruv's Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Dhruvateja Amancha</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Dhruvateja Amancha</h1>
+                    <h3 class="home__education">Aspiring Full Stack Developer</h3>
+
+                    <div class="home__button">
+                        <a download="" href="https://drive.google.com/file/d/16-2-i9b_DMjz6QU5A4oxEYibRvINug26/view?usp=drive_link" class="button button--ghost">
+                            Download Resume
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/img01.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/kyatramoni-rakesh" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/KyatramoniRakesh" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/rakhee____/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://twitter.com/Rakhee____" target="_blank" class="home__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/img03.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">Fresh start, eager learner</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">10+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Accessible</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Aspiring Full Stack Developer & Machine Learning Enthusiast. I am a driven and enthusiastic college student pursuing a Bachelor's degree in Computer Science and Engineering with a specialization in AI & ML. I have a deep passion for becoming an AI Engineer and am eager to leverage my academic knowledge and hands-on experience in C, Python, Java, HTML, CSS, and JavaScript to contribute effectively to the tech industry.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My Abilities</span>
+            <h2 class="section__title">Skills</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Flask</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Mongo DB</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">My Skills</span>
+            <h2 class="section__title">What I Bring</h2>
+        
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Web Development</h3>
+        
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+        
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+        
+                            <h3 class="services__modal-title">Web Development</h3>
+        
+                            <p class="services__modal-description">
+                                I build and design web applications using cutting-edge technologies to create seamless user experiences.
+                            </p>
+        
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Frontend development with HTML, CSS, and JavaScript.
+                                    </p>
+                                </li>
+        
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Backend development with Python, JavaScript and frameworks like Flask and NodeJS.
+                                    </p>
+                                </li>
+        
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Database management with MySQL and MongoDB.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="services__card">
+                    <h3 class="services__title">AI & NLP Integration</h3>
+        
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+        
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+        
+                            <h3 class="services__modal-title">AI & NLP Integration</h3>
+        
+                            <p class="services__modal-description">
+                                I develop intelligent systems that leverage AI and NLP to process and generate human-like text efficiently.
+                            </p>
+        
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Building and integrating AI models like GPT-4, LLaMA 2, and Gemini for chatbots, text enhancement, and translation.
+                                    </p>
+                                </li>
+        
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Implementing Natural Language Processing techniques such as Named Entity Recognition (NER), sentiment analysis, and text classification.
+                                    </p>
+                                </li>
+        
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Speech and text processing with technologies like gSTT (Google Speech-to-Text), gTTS (Google Text-to-Speech), and handwriting recognition.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="services__card">
+                    <h3 class="services__title">Problem Solving</h3>
+        
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+        
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+        
+                            <h3 class="services__modal-title">Problem Solving</h3>
+        
+                            <p class="services__modal-description">
+                                I possess strong analytical skills and a problem-solving mindset to overcome challenges and deliver efficient solutions.
+                            </p>
+        
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Debugging and troubleshooting.
+                                    </p>
+                                </li>
+        
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Algorithmic thinking.
+                                    </p>
+                                </li>
+        
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Attention to detail.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class=" work__item" data-filter='.web'>Web</span>
+                <span class=" work__item" data-filter='.movil'>Front-End</span>
+                <span class=" work__item" data-filter='.design'>Other</span>
+            </div>
+
+            
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/Ecommerce.jpeg" alt="" class="work__img">
+
+                    <h3 class="work__title">Electronic's E-Commerce</h3>
+
+                    <a href="https://github.com/Dhruva1129/ey-final-project" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/text-enh.jpeg" alt="" class="work__img">
+    
+                    <h3 class="work__title">Text Enhancer</h3>
+    
+                    <a href="https://github.com/Dhruva1129/ai-text-enhancer" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web movil">
+                    <img src="assets/img/shoe.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">E-Commerce Shoe Website</h3>
+
+                    <a href="https://dhruva1129.github.io/real-time-project/index.html" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web movil">
+                    <img src="assets/img/temp.jpg" alt="dairy" class="work__img">
+
+                    <h3 class="work__title">Temperature Converter</h3>
+
+                    <a href="https://github.com/Dhruva1129/OIBSIP/tree/main/task-3" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/portfolio.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Portfolio</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <!-- <div class="work__card mix movil">
+                    <img src="assets/img/calc.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Calculator</h3>
+
+                    <a href="https://kyatramonirakesh.github.io/Calculator/" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div> -->
+
+                <!-- <div class="work__card mix movil">
+                    <img src="assets/img/Login.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Login & Signup Page</h3>
+
+                    <a href="https://github.com/KyatramoniRakesh/Login-SignUp-Page" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div> -->
+
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <!-- <span class="section__subtitle">My clients say</span> -->
+            <h2 class="section__title">Experience</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/ey.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">EY GDS Next Gen, Edunet Foundation</h3>
+                        <h4 class="testimonial__name">MERN Stack Developer</h4>
+                        <p class="testimonial__description">Internship</p>
+                        <p class="testimonial__description">Dec 2024 - Jan 2025 · 2 months</p>
+                        <p class="testimonial__description">
+                            "Developed a full-stack eCommerce website with React.js, 
+                            Node.js, MongoDB, and JWT authentication, gaining hands-on 
+                            experience in frontend development, API design, and database management."
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/aicte.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">AI & ML Virtual Internship, AICTE</h3>
+                        <p class="testimonial__description">Internship Certification</p>
+                        <p class="testimonial__description">Jul 2024 – Sep 2024 · 2 months</p>
+                        <p class="testimonial__description">
+                            Completed a virtual internship on Artificial Intelligence & Machine Learning 
+                            organized by AICTE, gaining practical experience in data preprocessing, model 
+                            building, and deployment. Worked on real-world AI applications using Python, 
+                            and TensorFlow.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/oasis.jpeg" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Oasis Infobyte</h3>
+                        <h4 class="testimonial__name">Web Designer</h4>
+                        <p class="testimonial__description">Internship</p>
+                        <p class="testimonial__description">Jan 2024 - Feb 2024 · 2 months</p>
+                        <p class="testimonial__description">
+                            Virtual Internship in Oasis infobyte as a Web Designer
+                         <!-- <div class="swiper-pagination"></div> -->
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+ <!--=============== EDUCATION ===============-->
+ <section class="education section ">
+    <span class="section__subtitle">Education</span>
+    <h2 class="section__title">Qualifications</h2>
+    <div class="testimonial__container container">
+        <div class="row">
+            <div class=" education__card">
+                <div class="col-md-4">
+                    <div class="edu_img">
+                        <img src="assets/img/college.png" alt="CLG_img">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="edu_info">
+                        <h3 class="testimonial__name education__title">Bachelor of Technology in Computer Science and Engineering [AI & ML]</h3>
+                        <p class="testimonial__description education__info">July 2023 – May 2026</p>
+                        <p class="testimonial__description education__info">Vaagdevi College Of Engineering, Warangal, Telangana</p>
+                        <p class="testimonial__description education__info">CGPA – 8.20</p>
+                    </div>
+                </div>
+            </div>
+           
+            <div class=" education__card">
+                <div class="col-md-4">
+                    <div class="edu_img">
+                        <img src="assets/img/vmr.jpeg" alt="CLG_img" style="border-radius: 30%;">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="edu_info">
+                        <h3 class="testimonial__name education__title">Diploma in Electrical and Electronics Engineering</h3>
+                        <p class="testimonial__description education__info">July 2020 – May 2023</p>
+                        <p class="testimonial__description education__info">VMR Polytechnic College, Rampur, Warangal</p>
+                        <p class="testimonial__description education__info">CGPA – 9.2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education__card">
+                <div class="col-md-4">
+                    <div class="edu_img">
+                        <img src="assets/img/school.png" alt="CLG_img">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="edu_info">
+                        <h3 class="testimonial__name education__title">The Board of Secondary Education</h3>
+                        <p class="testimonial__description education__info">June 2019 – May 2020</p>
+                        <p class="testimonial__description education__info">Sahasra Concept School, Chinnapendyal, Warangal</p>
+                        <p class="testimonial__description education__info">CGPA – 10.0</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+ 
+            </div>
+            
+            
+        </div>
+
+    </div>
+</section>
+
+
+
+        
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Get in touch</sapn>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">dhruvatejaamancha29@gmail.com</span>
+
+                            <a href="mailto:example@domain.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+91 7075790874</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+917075790874&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-linkedin contact__card-icon'></i>
+                            <h3 class="contact__card-title">Linkedin</h3>
+                            <span class="contact__card-data">Dhruvateja Amancha</span>
+
+                            <a href="https://www.linkedin.com/in/dhruvateja-amancha-80a24527b/" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+
+                    <form action="https://formsubmit.co/dhruvatejaamancha29@gmail.com" method="POST" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter name" class="contact__form-input" required>
+                        </div>
+                    
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Enter email" class="contact__form-input" required>
+                        </div>
+                    
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Message</label>
+                            <textarea id="message" name="message" cols="30" rows="10" placeholder="Write your Message"
+                                class="contact__form-input" required></textarea>  
+                        </div>
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                        <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+                    
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Dhruvateja Amancha</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://github.com/Dhruva1129" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://x.com/Dhruvateja_A" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/dhruvateja-amancha-80a24527b/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.instagram.com/dhruvateja_/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2024 Dhruv. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
