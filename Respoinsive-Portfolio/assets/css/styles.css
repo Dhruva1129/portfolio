@@ -107,7 +107,7 @@ button {
 }
 
 img {
-  max-width: 80%;
+  max-width: 75%;
   height: auto;
 }
 
@@ -705,6 +705,8 @@ body.light-theme {
 }
 
 /*=============== TESTIMONIAL ===============*/
+
+
 .testimonial__card {
   background-color: var(--container-color);
   padding: 1.25rem 1.5rem;
