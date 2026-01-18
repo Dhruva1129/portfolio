@@ -728,7 +728,7 @@ body.light-theme {
 
 .testimonial__description {
   font-size: var(--small-font-size);
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.50rem;
 }
 
 /* Swiper class */
