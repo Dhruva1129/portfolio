@@ -771,7 +771,13 @@ body.light-theme {
     display: block;
   }
 }
-
+@media (max-width: 320px) {
+  .edu_info {
+    padding-left: 0rem;
+    padding-top: 1rem;
+    text-align: left;
+  }
+}
 /*=============== CONTACT ===============*/
 .contact__container {
   row-gap: 3rem;
@@ -1272,3 +1278,4 @@ body.light-theme {
     border-radius: 0.5rem;
   }
 }
+
