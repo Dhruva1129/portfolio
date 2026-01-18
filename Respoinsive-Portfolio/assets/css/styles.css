@@ -107,8 +107,9 @@ button {
 }
 
 img {
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
+  border-radius: 1rem;
 }
 
 /*=============== THEME ===============*/
@@ -116,7 +117,6 @@ img {
   font-size: 1.25rem;
   cursor: pointer;
   transition: 0.3s;
- 
 }
 
 .change__theme:hover {
@@ -299,7 +299,7 @@ body.light-theme {
 /*=============== HOME ===============*/
 .home__container {
   position: relative;
-  row-gap: 4.5rem;
+  row-gap: 1.5rem;
   padding-top: 2rem;
 }
 
@@ -336,15 +336,15 @@ body.light-theme {
 
 .home__handle {
   justify-self: center;
-  width: 190px;
-  height: 293px;
-  background: linear-gradient(
+  width: 450px;
+  height: 400px;
+  /* background: linear-gradient(
     180deg,
     hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
     hsla(var(--first-hue), var(--sat), var(--lig), 0.1)
-  );
+  ); */
 
-  border-radius: 10rem 10rem 1rem 1rem;
+  /* border-radius: 10rem 10rem 1rem 1rem; */
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -706,7 +706,6 @@ body.light-theme {
 
 /*=============== TESTIMONIAL ===============*/
 
-
 .testimonial__card {
   background-color: var(--container-color);
   padding: 1.25rem 1.5rem;
@@ -728,7 +727,7 @@ body.light-theme {
 
 .testimonial__description {
   font-size: var(--small-font-size);
-  margin-bottom: 0.50rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Swiper class */
@@ -742,7 +741,7 @@ body.light-theme {
 
 /*=============== EDUCATION ===============*/
 
-.education__card{
+.education__card {
   background-color: var(--container-color);
   padding: 1.25rem 1.5rem;
   border-radius: 1.5rem;
@@ -750,31 +749,28 @@ body.light-theme {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1rem;
-  
 }
-.edu_info{
+.edu_info {
   padding-left: 3rem;
   padding-top: 1rem;
   text-align: start;
-  
 }
-.edu_img{
+.edu_img {
   height: 10rem;
   width: 10rem;
   align-items: center;
 }
 @media (max-width: 768px) {
   .education__card .row {
-      
-      flex-direction: column;
-      display: block;
+    flex-direction: column;
+    display: block;
   }
-  .education__card .col-md-4, .education__card .col-md-8 {
-      width: 100%;
-      display: block;
+  .education__card .col-md-4,
+  .education__card .col-md-8 {
+    width: 100%;
+    display: block;
   }
 }
-
 
 /*=============== CONTACT ===============*/
 .contact__container {
@@ -962,12 +958,12 @@ body.light-theme {
   }
 
   .home__handle {
-    width: 150px;
-    height: 253px;
+    width: 200px;
+    height: 200px;
   }
 
   .home__img {
-    width: 130px;
+    width: 180px;
   }
 
   .about__info {
@@ -999,6 +995,16 @@ body.light-theme {
     column-gap: 0.25rem;
   }
 }
+/* @media screen and (max-width: 370px) {
+  .home__handle {
+    width: 250px;
+    height: 250px;
+  }
+
+  .home__img {
+    width: 250px;
+  }
+} */
 
 @media screen and (min-width: 435px) {
   .work__container {
@@ -1010,10 +1016,14 @@ body.light-theme {
     width: 165px;
   }
 }
-
-
-
-
+@media screen and (min-width: 420px) {
+  .home__img {
+    width: 300px;
+  }
+  .home__handle {
+    width: 400px;
+  }
+}
 
 /* For medium devices */
 @media screen and (min-width: 630px) {
@@ -1145,12 +1155,12 @@ body.light-theme {
   }
 
   .home__handle {
-    width: 290px;
+    width: 400px;
     height: 400px;
   }
 
   .home__img {
-    width: 220px;
+    width: 423px;
   }
   .home__social-link {
     padding: 0.4rem;
@@ -1219,6 +1229,7 @@ body.light-theme {
 
   .work__card {
     padding: 1.25rem;
+    width: 330px;
   }
 
   .work__img {
